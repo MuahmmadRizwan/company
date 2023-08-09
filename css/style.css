@@ -5,6 +5,9 @@
     --light: #F6F7F8;
     --dark: #010A35;
 }
+.faq{
+    text-align: center;
+}
 .factss{
    text-align: center;
    justify-content: center;
@@ -136,6 +139,11 @@
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
+}
+@media (max-width: 550px) {
+    .accordion-body{
+        font-size: 13px;
+    }
 }
 @media (max-width: 400px) {
     .text{
