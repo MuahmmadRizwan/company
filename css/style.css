@@ -5,6 +5,7 @@
     --light: #F6F7F8;
     --dark: #010A35;
 }
+
 .faq{
     text-align: center;
 }
@@ -42,7 +43,41 @@
     z-index: 99;
 }
 
+/* booking */
 
+/*** Booking ***/
+.booking {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img-2/ac.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.bootstrap-datetimepicker-widget.bottom {
+    top: auto !important;
+}
+
+.bootstrap-datetimepicker-widget .table * {
+    border-bottom-width: 0px;
+}
+
+.bootstrap-datetimepicker-widget .table th {
+    font-weight: 500;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.bootstrap-datetimepicker-widget table td.active,
+.bootstrap-datetimepicker-widget table td.active:hover {
+    background: var(--primary);
+}
+
+.bootstrap-datetimepicker-widget table td.today::before {
+    border-bottom-color: var(--primary);
+}
+
+/* Booking */
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -143,6 +178,16 @@
 @media (max-width: 550px) {
     .accordion-body{
         font-size: 13px;
+       
+    }
+    .ac-heading{
+          font-size: 30px;  
+    }
+}
+@media (max-width: 350px) {
+    
+    .ac-heading{
+          font-size: 20px;  
     }
 }
 @media (max-width: 400px) {
